@@ -569,7 +569,17 @@ img {
     background-color: transparent;
     padding-left: 16px;
     padding-right: 16px;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
 
+.footer-subscribe-input::placeholder {
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 }
 
 .footer-subscribe-btn {
@@ -795,7 +805,6 @@ img {
     border: 1px solid rgba(46, 47, 66, 0.4);
     margin-right: 8px;
     fill: #F4F4FD;
-    display: flex;
     align-items: center;
     justify-content: center;
     fill: transparent;
@@ -809,7 +818,7 @@ img {
     line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
-    color: #F4F4FD;
+    color: #4d5ae5;
     display: block;
 }
 
@@ -820,7 +829,7 @@ img {
     border-radius: 2px;
     background-color: #404bbf;
     border: none;
-    fill: #e7e9fc;
+    fill: #F4F4FD;
 }
 
 
@@ -830,6 +839,7 @@ img {
     min-width: 169px;
     height: 56px;
     background: #4d5ae5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     font-family: inherit;
     font-weight: 500;
