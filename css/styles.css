@@ -601,7 +601,7 @@ img {
     background-color: rgba(46, 47, 66, 0.4);
     opacity: 0;
     visibility: hidden;
-    pointer-events: 0;
+    pointer-events: none;
 }
 
 .is-open {
@@ -714,7 +714,6 @@ img {
     fill: #4d5ae5;
 }
 
-
 .modal-textarea {
     resize: none;
     height: 120px;
@@ -757,7 +756,7 @@ img {
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
-    display: blocki
+    display: block;
 }
 
 .check-label span {
