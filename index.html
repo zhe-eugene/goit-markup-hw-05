@@ -497,15 +497,23 @@
         <div class="footer-subscribe-wrapper">
           <p class="footer-subscribe-text footer-text">Subscribe</p>
           <form class="footer-form">
-            <input
-              type="email"
-              name="subscribe-email"
-              id="subscribe-email"
-              class="footer-subscribe-input"
-              placeholder="E-mail"
-            />
+            <label class="footer-subscribe-label" for="subscribe-email"
+              ><input
+                type="email"
+                name="subscribe-email"
+                id="subscribe-email"
+                class="footer-subscribe-input"
+                placeholder="E-mail"
+            /></label>
+
             <button type="submit" class="footer-subscribe-btn">
-              Subscribe
+              Subscribe<svg
+                class="footer-subscribe-icon"
+                width="24"
+                height="24"
+              >
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
             </button>
           </form>
         </div>
@@ -567,7 +575,7 @@
             </div>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-field-textarea">
             <label for="user-comment" class="modal-label">Comment</label>
             <textarea
               name="user-comment"
