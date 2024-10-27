@@ -496,23 +496,25 @@
 
         <div class="footer-subscribe-wrapper">
           <p class="footer-subscribe-text footer-text">Subscribe</p>
-          <div class="mail-btn-wrapper">
-            <input
-              type="email"
-              name="subscribe-email"
-              id="subscribe-email"
-              class="footer-subscribe-input"
-              placeholder="E-mail"
-            />
-            <button type="submit" class="footer-subscribe-btn">
-              Subscribe
-            </button>
-          </div>
+          <form class="footer-form">
+            <div class="mail-btn-wrapper">
+              <input
+                type="email"
+                name="subscribe-email"
+                id="subscribe-email"
+                class="footer-subscribe-input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="footer-subscribe-btn">
+                Subscribe
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="modal">
         <button class="modal-btn" type="button">
           <svg class="modal-icon" width="8" height="8">
@@ -577,16 +579,16 @@
             ></textarea>
           </div>
 
-          <div class="modal-field">
+          <div class="modal-field-check">
             <input
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               class="modal-check visually-hidden"
               value="true"
             />
-            <label for="policy" class="check-label"
-              ><span
+            <label for="user-privacy" class="check-label"
+              ><span class="check-text"
                 ><svg class="modal-check-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-check"></use></svg></span
               >I accept the terms and conditions of the
